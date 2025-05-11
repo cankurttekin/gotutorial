@@ -1,0 +1,7 @@
+you cant perform operations with mixed types
+cant add int and flot32
+can be cast
+
+default values for all ints, unsigned ints, flots and runes 0
+string ''
+bool false 
