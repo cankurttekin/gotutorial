@@ -1,0 +1,20 @@
+six main points:
+1. statically typed language
+declare types explicitly or inferred
+2. strongly typed language
+cannot mix types a=1 b="two" => X c=a+b
+3. compiled language
+4. fast compile time
+5. built in concurrency
+goroutines
+6. simplicity
+garbage collection etc
+
+
+structure of go code:
+modules and packages
+package is folder that contains collection of go files.
+collection of these packages called module.
+when init. a new project init. a module.
+
+
