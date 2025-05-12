@@ -1,0 +1,12 @@
+[]Arrays
+fixed length
+  
+same type
+indexable
+contiguous in memory
+
+
+
+slices
+var intSlice []int32 = []int32{4,5,6}
+
