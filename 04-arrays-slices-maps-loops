@@ -15,3 +15,11 @@ len of the arr cannot be changed after it initialized
 slices
 var intSlice []int32 = []int32{4,5,6}
 
+
+maps
+map[string] int32
+{"key": "value"}
+map will always return something even if the key doesnt exist.
+  for string int32 key val pairs it will return default value of int32 
+
+

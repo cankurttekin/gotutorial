@@ -26,9 +26,24 @@ func main() {
 	fmt.Println(intSlice)
 
 
-	# you can also specify the length and capacity of a slice
+	// you can also specify the length and capacity of a slice
 	var intSlice3 []int32 = make([]int32, 5, 10)
+	fmt.Printf("the length of the slice is %v, capacity is %v\n", len(intSlice3), cap(intSlice3))
 
 
-	
+	// maps
+	var myMap map[string]uint32 = make(map[string]uint32) // this means keys are string and values are uint32
+	fmt.Println(myMap)
+
+	var myMap2 = map[string]uint32{"John": 1, "Jane": 2}
+	fmt.Println(myMap2)
+
+	var age, ok = myMap2["Can"]
+	delete(myMap2, "John")
+	if ok {
+		fmt.Println("the age of Can is", age)
+	} else {
+		fmt.Println("Can is not in the map")
+	}
+
 }
