@@ -4,8 +4,13 @@ fixed length
 same type
 indexable
 contiguous in memory
+  [3]int32
+    int32 4 bytes array stores 3 elements = 12 bytes of contiguous memory
 
-
+[3]int32
+  int32 4 bytes array stores 3 elements(
+var intArr [3]int32
+len of the arr cannot be changed after it initialized
 
 slices
 var intSlice []int32 = []int32{4,5,6}
