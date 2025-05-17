@@ -46,4 +46,24 @@ func main() {
 		fmt.Println("Can is not in the map")
 	}
 
+	for name := range myMap2 {
+		fmt.Println(name)
+	}
+
+	for name, age := range myMap2 {
+		fmt.Println(name, age)
+	}
+	
+	for i, v := range initArr {
+		fmt.Printf("index: %v, val: %v \n", i, v)
+	}
+
+
+	// while loop
+	var i int32 = 0
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
+	
 }
