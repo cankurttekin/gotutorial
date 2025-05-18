@@ -1,0 +1,6 @@
+strings
+utf8
+strings are immutable
+  there is go s string library with stringbuilder :
+runes 
+alias for int32
