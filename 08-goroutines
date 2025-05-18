@@ -1,0 +1,5 @@
+goroutines
+launch multiple funcs and execute concurrently
+concurrency != parallel execution
+concurrency means mult tasks are in progress at the same time
+
