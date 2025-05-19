@@ -1,0 +1,9 @@
+channels
+ a way to enable goroutines to pass around information
+- hold data
+  int, slice or anything 
+-thread safe
+  we avoid data races when we're reading and writing from mem
+- listen for data
+  when data is added or removed from a channel we can block code executaion until one of these events happens
+
