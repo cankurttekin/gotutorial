@@ -1,0 +1,9 @@
+generics
+lets say we have funcs that sums up the vals of an integer slice
+also float32 slice
+ ( sumIntSlice, sumFloat32Slice, sumFloat64Slice....)
+
+to not to repeat code like this we use generics in golang
+
+we can think of generics as way of allowing func to receive additional params except instead of a value we are passing in a type
+
