@@ -1,4 +1,4 @@
-module github.com/cankurttekin/gotutorial/11-api
+module github.com/cankurttekin/gotutorial/11-api/internal/handlers
 
 go 1.24.2
 
